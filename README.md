@@ -29,3 +29,6 @@ View the extracted username and domain
 Choose whether to see additional analysis (y/n)
 
 Leave input blank or type "exit" to quit the program
+
+## Requirements
+Python 3.x (No external dependencies required)
