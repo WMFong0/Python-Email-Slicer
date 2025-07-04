@@ -1,0 +1,33 @@
+TYPE,KEY,VALUE
+DOMAIN_CATEGORY,com,Commercial
+DOMAIN_CATEGORY,org,Non-profit Organization
+DOMAIN_CATEGORY,net,Network services
+DOMAIN_CATEGORY,info,Information services
+DOMAIN_CATEGORY,us,United States
+DOMAIN_CATEGORY,uk,United Kingdom
+DOMAIN_CATEGORY,ca,Canada
+DOMAIN_CATEGORY,au,Australia
+DOMAIN_CATEGORY,de,Germany
+DOMAIN_CATEGORY,fr,France
+DOMAIN_CATEGORY,jp,Japan
+DOMAIN_CATEGORY,kr,South Korea
+DOMAIN_CATEGORY,in,India
+DOMAIN_CATEGORY,hk,Hong Kong
+DOMAIN_CATEGORY,tw,Taiwan
+DOMAIN_CATEGORY,gov,US Government
+DOMAIN_CATEGORY,mil,US Military
+DOMAIN_CATEGORY,edu,Educational institution
+DOMAIN_CATEGORY,int,International organizations
+DOMAIN_CATEGORY,ngo,Non-governmental organization
+COMMON_PROVIDER,gmail.com,Google Mail
+COMMON_PROVIDER,yahoo.com,Yahoo Mail
+COMMON_PROVIDER,hotmail.com,Hotmail
+COMMON_PROVIDER,outlook.com,Microsoft Outlook
+COMMON_PROVIDER,icloud.com,Apple iCloud
+COMMON_PROVIDER,protonmail.com,ProtonMail
+COMMON_PROVIDER,mail.com,Mail.com
+COMMON_PROVIDER,yandex.com,Yandex Mail
+ORG_TYPE,gov,Government
+ORG_TYPE,org,Non-Profit Organization
+ORG_TYPE,edu,Educational
+ORG_TYPE,mil,Military
