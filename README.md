@@ -1,36 +1,56 @@
 # Email Slicer - Python Project
 ## Overview
-A **simple Python** script that slices an email address into its username and domain components, with optional basic analysis of the domain type.
+An **advanced Python email analyzer** that slices email addresses and provides detailed domain classification using an external database. The program now offers more comprehensive analysis with configurable domain categories.
 
-## Features
+## Key Features
+- **Database-driven analysis** using ***database.csv*** for easy customization
 
-  Extracts username and domain from any valid email address
-  
-  Basic email format validation
+- **Enhanced domain classification:**
 
-### Optional domain analysis:
+  - Personal email providers (Gmail, Yahoo, Outlook, etc.)
 
-  Identifies common personal email providers (Gmail, Yahoo, Outlook)
+  - Government domains (including international like .gov.hk)
+
+  - Educational institutions (.edu)
+
+  - Non-profit organizations (.org, .ngo)
+
+  - Country-specific domains (50+ countries supported)
+
+**Detailed output** showing:
+
+  - Username and domain components
+
+  - Email provider (for personal accounts)
   
-  Detects educational institutions (.edu domains)
+  - Organization type (for institutional emails)
+
+  - Country of origin (when detectable)
+
+- **Error handling** for invalid email formats
+
+- **Simple command-line interface**
+
+## Database Configuration
+The program uses ***database.csv*** containing:
+
+- ***DOMAIN_CATEGORY***: TLD classifications and country codes
   
-  Classifies other domains as professional/work emails
+- ***COMMON_PROVIDER***: Known email service providers
   
-  Simple command-line interface
-  
-  Exit on demand by leaving input blank or typing "exit"
+- ***ORG_TYPE***: Organization type mappings
 
 ## How to Use
-
-Run the script in a Python environment
-
-Enter an email address when prompted
-
-View the extracted username and domain
-
-Choose whether to see additional analysis (y/n)
-
-Leave input blank or type "exit" to quit the program
+1. Ensure ***database.csv*** is in the same directory as the script
+2. Run the program: python ***main.py***
+3. Enter an email address when prompted
+4. View the detailed analysis including:
+   - Username and domain components
+   - Email provider (if personal account)
+   - Organization type (if institutional email)
+   - Country detection (limited to popular country at the moment)
+5. Press Enter with no input to exit
 
 ## Requirements
-Python 3.x (No external dependencies required)
+
+* Python 3.x (csv is build-in module)
