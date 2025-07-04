@@ -7,7 +7,7 @@ Extracts username and domain from any valid email address
 
 Basic email format validation
 
-## Optional domain analysis:
+Optional domain analysis:
 
 Identifies common personal email providers (Gmail, Yahoo, Outlook)
 
