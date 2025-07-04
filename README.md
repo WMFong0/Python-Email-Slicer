@@ -1,8 +1,8 @@
 # Email Slicer - Python Project
-##Overview
+## Overview
 A **simple Python** script that slices an email address into its username and domain components, with optional basic analysis of the domain type.
 
-##Features
+## Features
 Extracts username and domain from any valid email address
 
 Basic email format validation
@@ -19,7 +19,7 @@ Simple command-line interface
 
 Exit on demand by leaving input blank or typing "exit"
 
-##How to Use
+## How to Use
 Run the script in a Python environment
 
 Enter an email address when prompted
