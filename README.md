@@ -1,4 +1,4 @@
-# Email Slicer - Python Project
+# Email Slicer in Python
 ## Overview
 An **advanced Python email analyzer** that slices email addresses and provides detailed domain classification using an external database. The program now offers more comprehensive analysis with configurable domain categories.
 
