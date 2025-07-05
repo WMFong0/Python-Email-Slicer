@@ -53,7 +53,7 @@ def main():
     return
 
   while True:
-    email = input("Input the email address you want to analyze. Leave blank to exit.\nEmail Address: ").strip().lower()
+    email = input("Input the email address you want to analyze. Leave blank to exit.\nEmail Address: ").lower()
 
     if not email:
       print("Goodbye!")
